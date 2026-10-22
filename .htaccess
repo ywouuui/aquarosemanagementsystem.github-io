@@ -1,0 +1,5 @@
+Options -Indexes
+DirectoryIndex index.php
+<FilesMatch "^(\..*|composer\.(json|lock)|.*\.md|router\.php|package.*\.json)$">
+  Require all denied
+</FilesMatch>

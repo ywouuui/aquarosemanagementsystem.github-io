@@ -1,0 +1,11 @@
+/config/local.php
+/storage/*
+!/storage/.htaccess
+!/storage/.gitkeep
+/tests/.runtime/
+/tools/.test-config.php
+*.log
+*.zip
+/vendor/
+/tests/node_modules/
+/output/
